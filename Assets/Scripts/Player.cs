@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     float xMax;
     float yMin;
     float yMax;
+    public Animator animator;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         PlayerMovement();
+        PlayerDirectionAnimation();
     }
 
      private void PlayerMovement()
@@ -36,9 +38,15 @@ public class Player : MonoBehaviour
         Debug.Log(Input.GetAxisRaw("HorizontalKey"));
     }
 
+        private void PlayerDirectionAnimation()
+        {
+            animator.SetFloat("Horizontal", Input.GetAxisRaw("HorizontalKey"));
+            animator.SetFloat("Vertical", Input.GetAxisRaw("VerticalKey"));
+            Debug.Log(Input.GetAxisRaw("VerticalKey"));
+        }
+
     private void SetUpCamera()
     {
-        print("testy");
         Camera gameCamera = Camera.main;
         xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
         xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
@@ -47,4 +55,5 @@ public class Player : MonoBehaviour
         yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;
 
     }
+
 }
