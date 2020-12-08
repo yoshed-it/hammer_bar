@@ -4,38 +4,34 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] float movementSpeed = 8f;
+    [SerializeField] private float movementSpeed;
     
-    
-    //Configs
-    float xMin;
-    float xMax;
-    float yMin;
-    float yMax;
+   
     public Animator animator;
+    private Rigidbody2D rb2b;
+    
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        SetUpCamera();
+        rb2b = GetComponent<Rigidbody2D>();
+        
+        // SetUpCamera();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void FixedUpdate()
+    {   
+        
         PlayerMovement();
         PlayerDirectionAnimation();
     }
 
      private void PlayerMovement()
     {
-        var deltaX = Input.GetAxisRaw("HorizontalKey") * Time.deltaTime * movementSpeed;
-        var deltaY = Input.GetAxisRaw("VerticalKey") * Time.deltaTime * movementSpeed;
 
-        var newXPos = Mathf.Clamp(transform.position.x + deltaX, xMin, xMax);
-        var newYPos = Mathf.Clamp(transform.position.y + deltaY, yMin, yMax);
-        transform.position = new Vector2(newXPos, newYPos);
-        Debug.Log(Input.GetAxisRaw("HorizontalKey"));
+        rb2b.velocity = new Vector2(Mathf.Lerp(0, Input.GetAxisRaw("HorizontalKey") * movementSpeed, 0.8f),
+                                    Mathf.Lerp(0, Input.GetAxisRaw("VerticalKey") * movementSpeed, 0.8f));
+                                    rb2b.freezeRotation = true;   
+                                      
     }
 
         private void PlayerDirectionAnimation()
@@ -44,16 +40,4 @@ public class Player : MonoBehaviour
             animator.SetFloat("Vertical", Input.GetAxisRaw("VerticalKey"));
             Debug.Log(Input.GetAxisRaw("VerticalKey"));
         }
-
-    private void SetUpCamera()
-    {
-        Camera gameCamera = Camera.main;
-        xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
-        xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
-
-        yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y;
-        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;
-
-    }
-
 }
