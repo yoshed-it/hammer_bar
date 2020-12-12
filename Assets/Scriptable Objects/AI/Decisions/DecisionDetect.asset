@@ -15,4 +15,4 @@ MonoBehaviour:
   detectArea: 3
   targetMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
