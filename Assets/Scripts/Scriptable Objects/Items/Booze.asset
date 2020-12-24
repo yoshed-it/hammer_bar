@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b32184840c2994293b5c22e29bda66, type: 3}
+  m_Name: Booze
+  m_EditorClassIdentifier: 
+  objectName: Booze
+  sprite: {fileID: -433114660910954026, guid: c03effb5e7f6f364d95e883a775801e1, type: 3}
+  quantity: 1
+  stackable: 1
+  itemType: 1
