@@ -10,14 +10,12 @@ public class PlayerMovement : MonoBehaviour
 
     public Animator animator;
     private Rigidbody2D rb2b;
-    public Text beer;
 
 
     void Awake()
     {
         rb2b = GetComponent<Rigidbody2D>();
 
-        // SetUpCamera();
     }
 
     void FixedUpdate()
@@ -25,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
 
         PlayerMovementInput();
         PlayerDirectionAnimation();
-        // LockBeerToCharacter();
     }
 
     private void PlayerMovementInput()
@@ -42,10 +39,6 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", Input.GetAxisRaw("VerticalKey"));
     }
 
-    // void LockBeerToCharacter()
-    // {
-    //     Vector2 beerPosition = new Vector2(beer.transform.position.x, beer.transform.position.y);
-    //     transform.position = rb2b.velocity;
-    // }
+   
 
 }

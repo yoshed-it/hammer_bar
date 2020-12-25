@@ -9,7 +9,7 @@ public class StatusBars : MonoBehaviour
     public IntoxPoints intoxPoints;
 
     [HideInInspector]
-    public PlayerClass character;
+    public Player character;
 
     public Image statusMask;
 

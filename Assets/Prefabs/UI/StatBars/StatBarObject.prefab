@@ -25,16 +25,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097318276}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 347965754684486792}
-  m_RootOrder: 1
+  m_Father: {fileID: 347965756116174894}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 359.2, y: 168.2}
+  m_AnchoredPosition: {x: 59.19995, y: -6.8000336}
   m_SizeDelta: {x: 18.66312, y: 13.490791}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1097318279
@@ -390,7 +390,7 @@ RectTransform:
   m_Children:
   - {fileID: 347965756036038020}
   m_Father: {fileID: 347965756116174894}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -688,7 +688,7 @@ GameObject:
   - component: {fileID: 347965754684486797}
   - component: {fileID: 183850805}
   m_Layer: 5
-  m_Name: StatBar
+  m_Name: StatBarObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -706,7 +706,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 347965756116174894}
-  - {fileID: 1097318277}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -823,7 +822,7 @@ RectTransform:
   m_Children:
   - {fileID: 347965754278688267}
   m_Father: {fileID: 347965756116174894}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -987,6 +986,7 @@ RectTransform:
   m_Children:
   - {fileID: 347965754378426388}
   - {fileID: 347965754122984073}
+  - {fileID: 1097318277}
   - {fileID: 347965754237313766}
   - {fileID: 347965754881072611}
   m_Father: {fileID: 347965754684486792}
