@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CanBePickedUp
   layers:
   - Default
   - TransparentFX
@@ -13,6 +14,8 @@ TagManager:
   - UI
   - 
   - 
+  - Blocking
+  - Consumables
   - AI
   - Player
   - 
@@ -35,9 +38,19 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 601174825
+    locked: 0
+  - name: Grid
+    uniqueID: 1073247721
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bar Objects
+    uniqueID: 1337132459
+    locked: 0
+  - name: Characters
+    uniqueID: 3538820027
     locked: 0

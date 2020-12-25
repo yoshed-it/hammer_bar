@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: 0d000316fa71e3343a0813011f5dc211
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8181954790664310431
+    second: basic_prototype_yellow_01_0
+  - first:
+      213: 3501678378894388724
+    second: basic_prototype_yellow_01_1
+  - first:
+      213: -2326412143647896293
+    second: basic_prototype_yellow_01_2
+  - first:
+      213: -8314972295203121887
+    second: basic_prototype_yellow_01_3
+  - first:
+      213: 4164060967578618005
+    second: basic_prototype_yellow_01_4
+  - first:
+      213: 4931413441810696595
+    second: basic_prototype_yellow_01_5
+  - first:
+      213: -1194621985373286750
+    second: basic_prototype_yellow_01_6
+  - first:
+      213: -3489422778581077629
+    second: basic_prototype_yellow_01_7
+  - first:
+      213: -5677526657367898884
+    second: basic_prototype_yellow_01_8
+  - first:
+      213: -6974024805927410012
+    second: basic_prototype_yellow_01_9
+  - first:
+      213: 8460149223063225929
+    second: basic_prototype_yellow_01_10
+  - first:
+      213: -3905327379049398143
+    second: basic_prototype_yellow_01_11
+  - first:
+      213: -4847113664645472959
+    second: basic_prototype_yellow_01_12
+  - first:
+      213: -7212493098214419197
+    second: basic_prototype_yellow_01_13
+  - first:
+      213: -3192745884429867959
+    second: basic_prototype_yellow_01_14
+  - first:
+      213: -7269057086811076847
+    second: basic_prototype_yellow_01_15
+  - first:
+      213: -4961561097430632753
+    second: basic_prototype_yellow_01_16
+  - first:
+      213: -2150700038577335395
+    second: basic_prototype_yellow_01_17
+  - first:
+      213: 7430125580670787838
+    second: basic_prototype_yellow_01_18
+  - first:
+      213: -6738272846781197294
+    second: basic_prototype_yellow_01_19
+  - first:
+      213: -475863847477262315
+    second: basic_prototype_yellow_01_20
+  - first:
+      213: 7949058593946437898
+    second: basic_prototype_yellow_01_21
+  - first:
+      213: 3910256005633146569
+    second: basic_prototype_yellow_01_22
+  - first:
+      213: -5687382202120890005
+    second: basic_prototype_yellow_01_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 334
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e0ad148842c8170800000000000000
+      internalID: 8181954790664310431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 334
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39986b7c566ef6440800000000000000
+      internalID: 4931413441810696595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 335
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae04f832a9db6fe0800000000000000
+      internalID: -1194621985373286750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1804728a07d7dc9c0800000000000000
+      internalID: -3905327379049398143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 306
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 2, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d5dd89dc79bbcb0800000000000000
+      internalID: -4847113664645472959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 287
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 5, z: 4, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30519f79db318eb90800000000000000
+      internalID: -7212493098214419197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 303
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944a774b88611b3d0800000000000000
+      internalID: -3192745884429867959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 303
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 3, z: 2, w: 4}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1170798b71f1f1b90800000000000000
+      internalID: -7269057086811076847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_16
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 303
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6ff38287ef42bb0800000000000000
+      internalID: -4961561097430632753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_17
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 285
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93dd26b5bd2722e0800000000000000
+      internalID: -2150700038577335395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 222
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0ec6069db1d1760800000000000000
+      internalID: 7430125580670787838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_19
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 209
+        width: 78
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21452f7fb88dc72a0800000000000000
+      internalID: -6738272846781197294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_20
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 267
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518caa91a546569f0800000000000000
+      internalID: -475863847477262315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_21
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 249
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0981fedcaab05e60800000000000000
+      internalID: 7949058593946437898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 231
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef994ae15044630800000000000000
+      internalID: 3910256005633146569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: basic_prototype_yellow_01_23
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 211
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6994bc250c5211b0800000000000000
+      internalID: -5687382202120890005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

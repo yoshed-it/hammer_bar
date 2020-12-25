@@ -1,0 +1,695 @@
+fileFormatVersion: 2
+guid: c67fa54a57bae034c97b84caa7c0d83c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7471813234390304199
+    second: UI Pixel Assets 5_0
+  - first:
+      213: -854104408717490094
+    second: UI Pixel Assets 5_1
+  - first:
+      213: -2714485999221529330
+    second: UI Pixel Assets 5_2
+  - first:
+      213: 7218279491835613289
+    second: UI Pixel Assets 5_3
+  - first:
+      213: -4395286675656188422
+    second: UI Pixel Assets 5_4
+  - first:
+      213: -4630979915687890437
+    second: UI Pixel Assets 5_5
+  - first:
+      213: 6955690000958115226
+    second: UI Pixel Assets 5_6
+  - first:
+      213: 294594324498339423
+    second: UI Pixel Assets 5_7
+  - first:
+      213: 764580848757448060
+    second: UI Pixel Assets 5_8
+  - first:
+      213: 7241266479721597458
+    second: UI Pixel Assets 5_9
+  - first:
+      213: -5462069531129817425
+    second: UI Pixel Assets 5_10
+  - first:
+      213: 2227290042952833436
+    second: UI Pixel Assets 5_11
+  - first:
+      213: 6137658401065440289
+    second: UI Pixel Assets 5_12
+  - first:
+      213: -854637716741540471
+    second: UI Pixel Assets 5_13
+  - first:
+      213: 5010417031725277207
+    second: UI Pixel Assets 5_14
+  - first:
+      213: -828066424224613627
+    second: UI Pixel Assets 5_15
+  - first:
+      213: -5523616606103328237
+    second: UI Pixel Assets 5_16
+  - first:
+      213: 6585121368676810039
+    second: UI Pixel Assets 5_17
+  - first:
+      213: -1499751058686129720
+    second: UI Pixel Assets 5_18
+  - first:
+      213: 6435109924170052283
+    second: UI Pixel Assets 5_19
+  - first:
+      213: -7905517049029720664
+    second: UI Pixel Assets 5_20
+  - first:
+      213: -5429690330434574753
+    second: UI Pixel Assets 5_21
+  - first:
+      213: -5525899985722888619
+    second: UI Pixel Assets 5_22
+  - first:
+      213: -1047161802610474487
+    second: UI Pixel Assets 5_23
+  - first:
+      213: -1713746131525998599
+    second: UI Pixel Assets 5_24
+  - first:
+      213: 2756923042941429147
+    second: UI Pixel Assets 5_25
+  - first:
+      213: 5731122433865176438
+    second: UI Pixel Assets 5_26
+  - first:
+      213: -5002456085252557183
+    second: UI Pixel Assets 5_27
+  - first:
+      213: 2424060807387238273
+    second: UI Pixel Assets 5_28
+  - first:
+      213: 7358455568140534851
+    second: UI Pixel Assets 5_29
+  - first:
+      213: 9142901768096658657
+    second: UI Pixel Assets 5_30
+  - first:
+      213: 2411880169836596456
+    second: UI Pixel Assets 5_31
+  - first:
+      213: 3598966637014815582
+    second: UI Pixel Assets 5_32
+  - first:
+      213: 4702996913735990667
+    second: UI Pixel Assets 5_33
+  - first:
+      213: 3373553721097156751
+    second: UI Pixel Assets 5_34
+  - first:
+      213: 315745322040291594
+    second: UI Pixel Assets 5_35
+  - first:
+      213: -7544335617845310463
+    second: UI Pixel Assets 5_36
+  - first:
+      213: -8616070302005218501
+    second: UI Pixel Assets 5_37
+  - first:
+      213: 5366218848233036748
+    second: UI Pixel Assets 5_38
+  - first:
+      213: -79977889856532598
+    second: UI Pixel Assets 5_39
+  - first:
+      213: -6302836798281131194
+    second: UI Pixel Assets 5_40
+  - first:
+      213: 8999277939759963464
+    second: UI Pixel Assets 5_41
+  - first:
+      213: 1040177383253686803
+    second: UI Pixel Assets 5_42
+  - first:
+      213: 1628740596703448392
+    second: UI Pixel Assets 5_43
+  - first:
+      213: 3674252217179818635
+    second: UI Pixel Assets 5_44
+  - first:
+      213: -6515488438882311375
+    second: UI Pixel Assets 5_45
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 334
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a7a106379ce4890800000000000000
+      internalID: -7471813234390304199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 334
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1747b7d447bbfb0800000000000000
+      internalID: -4630979915687890437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_6
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 335
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d48daf333978060800000000000000
+      internalID: 6955690000958115226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 302
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99d7fd4e7ce8ee10800000000000000
+      internalID: 2227290042952833436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 302
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124923c0cc75d2550800000000000000
+      internalID: 6137658401065440289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 6, z: 4, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98538f15687b324f0800000000000000
+      internalID: -854637716741540471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 302
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7106d887eb3988540800000000000000
+      internalID: 5010417031725277207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 302
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bf9a579fd1284f0800000000000000
+      internalID: -828066424224613627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_16
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 302
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a23cd46fb2853b0800000000000000
+      internalID: -5523616606103328237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_18
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 284
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c94f7fab50df2be0800000000000000
+      internalID: -1499751058686129720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 266
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb23fb0a16a1e4950800000000000000
+      internalID: 6435109924170052283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_20
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 234
+        width: 84
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a50ace0126f94290800000000000000
+      internalID: -7905517049029720664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 271
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56e216896dd5a4b0800000000000000
+      internalID: -5429690330434574753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 222
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ea6ae8d3f0053b0800000000000000
+      internalID: -5525899985722888619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_23
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 209
+        width: 78
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9028b0d73ebb771f0800000000000000
+      internalID: -1047161802610474487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_24
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 248
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7613329fc8738e0800000000000000
+      internalID: -1713746131525998599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_25
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 234
+        width: 84
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95ec9796ee824620800000000000000
+      internalID: 2756923042941429147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_26
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 230
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6755ec22d79098f40800000000000000
+      internalID: 5731122433865176438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_27
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 210
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186b702d1b4b39ab0800000000000000
+      internalID: -5002456085252557183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_28
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 173
+        width: 129
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f434a067ef3a120800000000000000
+      internalID: 2424060807387238273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI Pixel Assets 5_29
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 49
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344038a3a5c7e1660800000000000000
+      internalID: 7358455568140534851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
