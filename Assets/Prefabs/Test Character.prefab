@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6327572071375765050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.26, y: -2.77, z: -0.42109436}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -217,9 +217,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 657c1e54b7d33da4eab1916c44be131f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intoxPoints: 5
+  intoxPoints: {fileID: 11400000, guid: 4efc011fc25dfc64ab25d2f0bc80f029, type: 2}
   maxIntoxPoints: 10
+  startingIntoxPoints: 0
   stressPoints: 5
   maxStressPoints: 10
   endurancePoints: 5
   maxEndurancePoints: 10
+  intoxBarPrefab: {fileID: 183850805, guid: 84f5c72b5c1f3e545abc743d5a52e8f9, type: 3}
+  inventoryPrefab: {fileID: -1313944950355267656, guid: 2000e9ce104e7c744805c9453479c6ef,
+    type: 3}

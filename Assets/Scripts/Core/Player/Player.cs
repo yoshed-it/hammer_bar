@@ -2,15 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerClass : CharacterManager
+public class Player : CharacterManager
 {
 
 
     public StatusBars intoxBarPrefab;
+    public Inventory inventoryPrefab;
     StatusBars intoxBar;
+    Inventory inventory;
+
 
     void Start()
     {
+        inventory = Instantiate(inventoryPrefab);
         intoxPoints.value = startingIntoxPoints;
         intoxBar = Instantiate(intoxBarPrefab);
         intoxBar.character = this;
@@ -28,24 +32,24 @@ public class PlayerClass : CharacterManager
             {
                 Debug.Log("There was a collision with " + collisionObject.objectName);
 
-                bool itemToBeDestroyed = false;
+                bool shouldDestroy = false;
                 //switch statement for pattern matching. I think I can make this better.
                 switch (collisionObject.itemType)
                 {
                     case Item.ItemType.MONEY:
-
-                        itemToBeDestroyed = true;
+                        shouldDestroy = inventory.AddItem(collisionObject);
                         break;
 
                     case Item.ItemType.INTOX:
                         AdjustIntoxLevel(collisionObject.quantity);
-                        itemToBeDestroyed = true;
+                        shouldDestroy = inventory.AddItem(collisionObject);
+                        // shouldDestroy = true;
                         break;
 
                     default:
                         break;
                 }
-                if (itemToBeDestroyed)
+                if (shouldDestroy)
                 {
                     Destroy(collision.gameObject);
 
