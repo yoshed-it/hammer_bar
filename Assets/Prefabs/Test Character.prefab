@@ -214,16 +214,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 6327572071375765050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 657c1e54b7d33da4eab1916c44be131f, type: 3}
+  m_Script: {fileID: 11500000, guid: aee41bb860aa9694ba73e875f929ebc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intoxPoints: {fileID: 11400000, guid: 4efc011fc25dfc64ab25d2f0bc80f029, type: 2}
+  intoxPoints: {fileID: 11400000, guid: 945b3c3664197764286188be80861d41, type: 2}
   maxIntoxPoints: 10
   startingIntoxPoints: 0
-  stressPoints: 5
-  maxStressPoints: 10
-  endurancePoints: 5
+  stressPoints: {fileID: 11400000, guid: 2775b3b3342dadb468d6476ba48f7f1b, type: 2}
+  maxStressPoints: 1000
+  startingStressPoints: 0
+  endurancePoints: {fileID: 11400000, guid: b056f96950083ac4a8f2d7c192fdc5e5, type: 2}
   maxEndurancePoints: 10
+  startingEndurancePoints: 10
   intoxBarPrefab: {fileID: 183850805, guid: 84f5c72b5c1f3e545abc743d5a52e8f9, type: 3}
-  inventoryPrefab: {fileID: -1313944950355267656, guid: 2000e9ce104e7c744805c9453479c6ef,
+  enduranceBarPrefab: {fileID: 183850805, guid: 84f5c72b5c1f3e545abc743d5a52e8f9,
+    type: 3}
+  stressBarPrefab: {fileID: 183850805, guid: 84f5c72b5c1f3e545abc743d5a52e8f9, type: 3}
+  moneyTickerPrefab: {fileID: 183850805, guid: 84f5c72b5c1f3e545abc743d5a52e8f9, type: 3}
+  inventoryPrefab: {fileID: 8301827851720234947, guid: 93e1958626bef5a489febd9fd3a41457,
     type: 3}
