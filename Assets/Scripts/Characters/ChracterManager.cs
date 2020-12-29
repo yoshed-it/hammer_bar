@@ -7,11 +7,14 @@ public class CharacterManager : MonoBehaviour
 {
 
     //Yosh -- Maybe learn more about 'Enum'.. but for now this works.
-    public IntoxPoints intoxPoints;
+    public Intox intoxPoints;
     public float maxIntoxPoints;
     public float startingIntoxPoints;
-    public int stressPoints;
+    public Stress stressPoints;
     public int maxStressPoints;
-    public int endurancePoints;
+    public int startingStressPoints;
+    public Endurance endurancePoints;
     public int maxEndurancePoints;
+    public int startingEndurancePoints;
+
 }
