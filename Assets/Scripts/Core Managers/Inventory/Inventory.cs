@@ -53,7 +53,6 @@ public class Inventory : MonoBehaviour
                 //Adding to existing slot.
                
                 items[i].quantity = items[i].quantity + 1;
-                print("Check This      " + items[i].quantity);
 
                 //Grab refrence to "Slot" script
                 Slot slotScript = slots[i].gameObject.GetComponent<Slot>();
@@ -61,7 +60,6 @@ public class Inventory : MonoBehaviour
 
                 TMP_Text quantityText = slotScript.qtyText;
                 quantityText.gameObject.SetActive(true);
-                print("Quantity Text    " + quantityText.text);
              
 
                 quantityText.text = items[i].quantity.ToString();
@@ -82,6 +80,8 @@ public class Inventory : MonoBehaviour
         return false;
 
     }
+
+  
 }
 
 
