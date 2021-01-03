@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: m5x7 SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -1666411642
   material: {fileID: 3071043853736445952}
-  materialHashCode: 0
+  materialHashCode: -928737434
   m_Version: 1.1.0
   m_SourceFontFileGUID: 0872c7e4cad9dc648b2d77d0066bf378
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 0872c7e4cad9dc648b2d77d0066bf378,
@@ -2430,9 +2430,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.5
+    - _ScaleRatioB: 0.40625
+    - _ScaleRatioC: 0.40625
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0

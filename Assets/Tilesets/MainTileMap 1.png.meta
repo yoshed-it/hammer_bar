@@ -1,0 +1,581 @@
+fileFormatVersion: 2
+guid: 64e08b5c5543a254fbbb52615fbb619b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1250437748714390127
+    second: MainTileMap 1_0
+  - first:
+      213: -7976067819242742155
+    second: MainTileMap 1_1
+  - first:
+      213: -5169799813423305034
+    second: MainTileMap 1_2
+  - first:
+      213: 1252281041154646684
+    second: MainTileMap 1_3
+  - first:
+      213: 3808548711548465211
+    second: MainTileMap 1_4
+  - first:
+      213: -7289210976255193397
+    second: MainTileMap 1_5
+  - first:
+      213: -375043130023779044
+    second: MainTileMap 1_6
+  - first:
+      213: -6930102816284706547
+    second: MainTileMap 1_7
+  - first:
+      213: -3180877824641729053
+    second: MainTileMap 1_8
+  - first:
+      213: -8812089598380701516
+    second: MainTileMap 1_9
+  - first:
+      213: 5501605692359954308
+    second: MainTileMap 1_10
+  - first:
+      213: 2630217554030072776
+    second: MainTileMap 1_11
+  - first:
+      213: 8243504574098197964
+    second: MainTileMap 1_12
+  - first:
+      213: -3024908585429381074
+    second: MainTileMap 1_13
+  - first:
+      213: -984525448026782520
+    second: MainTileMap 1_14
+  - first:
+      213: 7990705269679988035
+    second: MainTileMap 1_15
+  - first:
+      213: -6681071348281684166
+    second: MainTileMap 1_16
+  - first:
+      213: 6337979897491243683
+    second: MainTileMap 1_17
+  - first:
+      213: -1886348623624485133
+    second: MainTileMap 1_18
+  - first:
+      213: 8015017589970714575
+    second: MainTileMap 1_19
+  - first:
+      213: 6526932457274289192
+    second: MainTileMap 1_20
+  - first:
+      213: 4635996682442833456
+    second: MainTileMap 1_21
+  - first:
+      213: -2649234069430807179
+    second: MainTileMap 1_22
+  - first:
+      213: -3630778219339602538
+    second: MainTileMap 1_23
+  - first:
+      213: -5319858010874996143
+    second: MainTileMap 1_24
+  - first:
+      213: 1417901714857774270
+    second: MainTileMap 1_25
+  - first:
+      213: 4293971500290831903
+    second: MainTileMap 1_26
+  - first:
+      213: 2586626261632494434
+    second: MainTileMap 1_27
+  - first:
+      213: -264298396367281477
+    second: MainTileMap 1_28
+  - first:
+      213: -491706353641087021
+    second: MainTileMap 1_29
+  - first:
+      213: -7643971750575711014
+    second: MainTileMap 1_30
+  - first:
+      213: 8064337587687927473
+    second: MainTileMap 1_31
+  - first:
+      213: 2766476342219446256
+    second: MainTileMap 1_32
+  - first:
+      213: 2942253086635290284
+    second: MainTileMap 1_33
+  - first:
+      213: -1052045034743110378
+    second: MainTileMap 1_34
+  - first:
+      213: 1412967348737524253
+    second: MainTileMap 1_35
+  - first:
+      213: -2027410806289939933
+    second: MainTileMap 1_36
+  - first:
+      213: -2196602079837539158
+    second: MainTileMap 1_37
+  - first:
+      213: -6139157938398060545
+    second: MainTileMap 1_38
+  - first:
+      213: 1985802751490950839
+    second: MainTileMap 1_39
+  - first:
+      213: -5745924139570982727
+    second: MainTileMap 1_40
+  - first:
+      213: 1529153137162043097
+    second: MainTileMap 1_41
+  - first:
+      213: 5205519645852028473
+    second: MainTileMap 1_42
+  - first:
+      213: -825454930459482940
+    second: MainTileMap 1_43
+  - first:
+      213: -5674045785919620587
+    second: MainTileMap 1_44
+  - first:
+      213: -3404384884101406591
+    second: MainTileMap 1_45
+  - first:
+      213: 7266327022017509851
+    second: MainTileMap 1_46
+  - first:
+      213: -306494790788292356
+    second: MainTileMap 1_47
+  - first:
+      213: -4639991011646564405
+    second: MainTileMap 1_48
+  - first:
+      213: 5121562814142304556
+    second: MainTileMap 1_49
+  - first:
+      213: -865156747369120013
+    second: MainTileMap 1_50
+  - first:
+      213: 3418859856125764324
+    second: MainTileMap 1_51
+  - first:
+      213: 8000635483759259233
+    second: MainTileMap 1_52
+  - first:
+      213: 6307845725707241883
+    second: MainTileMap 1_53
+  - first:
+      213: 3396680343789963281
+    second: MainTileMap 1_54
+  - first:
+      213: -7614560874652831367
+    second: MainTileMap 1_55
+  - first:
+      213: -1659833730055246211
+    second: MainTileMap 1_56
+  - first:
+      213: -1503759400787193191
+    second: MainTileMap 1_57
+  - first:
+      213: 7683807206968012898
+    second: MainTileMap 1_58
+  - first:
+      213: -779299798512908053
+    second: MainTileMap 1_59
+  - first:
+      213: -1275936021074008527
+    second: MainTileMap 1_60
+  - first:
+      213: 4014532755200816233
+    second: MainTileMap 1_61
+  - first:
+      213: -9193529946635175018
+    second: MainTileMap 1_62
+  - first:
+      213: -4181741916331650386
+    second: MainTileMap 1_63
+  - first:
+      213: -1850336202482325967
+    second: MainTileMap 1_64
+  - first:
+      213: -1898501976061712302
+    second: MainTileMap 1_65
+  - first:
+      213: 381530870272656025
+    second: MainTileMap 1_66
+  - first:
+      213: -3795351475803990896
+    second: MainTileMap 1_67
+  - first:
+      213: -5632537328805248077
+    second: MainTileMap 1_68
+  - first:
+      213: -2845368708607844393
+    second: MainTileMap 1_69
+  - first:
+      213: 776884451879063336
+    second: MainTileMap 1_70
+  - first:
+      213: -7299114804113296361
+    second: MainTileMap 1_71
+  - first:
+      213: 4956682131713584031
+    second: MainTileMap 1_72
+  - first:
+      213: 5863876179975794035
+    second: MainTileMap 1_73
+  - first:
+      213: -515331966128981440
+    second: MainTileMap 1_74
+  - first:
+      213: 4403923099216752102
+    second: MainTileMap 1_75
+  - first:
+      213: -5881153330542207788
+    second: MainTileMap 1_76
+  - first:
+      213: 3037325083222103992
+    second: MainTileMap 1_77
+  - first:
+      213: -7667194984976560439
+    second: MainTileMap 1_78
+  - first:
+      213: -9015650235466872907
+    second: MainTileMap 1_79
+  - first:
+      213: 8239034980398554122
+    second: MainTileMap 1_80
+  - first:
+      213: -7466089112564502683
+    second: MainTileMap 1_81
+  - first:
+      213: -6064112895832221535
+    second: MainTileMap 1_82
+  - first:
+      213: 4278505828091989071
+    second: MainTileMap 1_83
+  - first:
+      213: 7709639219721845627
+    second: MainTileMap 1_84
+  - first:
+      213: 6380739544651190432
+    second: MainTileMap 1_85
+  - first:
+      213: 7757140431979964217
+    second: MainTileMap 1_86
+  - first:
+      213: 3607600456234580391
+    second: MainTileMap 1_87
+  - first:
+      213: 101460501476468619
+    second: MainTileMap 1_88
+  - first:
+      213: 5602465108129881887
+    second: MainTileMap 1_89
+  - first:
+      213: 8395431228338974357
+    second: MainTileMap 1_90
+  - first:
+      213: 6240026425717454041
+    second: MainTileMap 1_91
+  - first:
+      213: 3795923131755311588
+    second: MainTileMap 1_92
+  - first:
+      213: 4537985836492436712
+    second: MainTileMap 1_93
+  - first:
+      213: -990944452483787628
+    second: MainTileMap 1_94
+  - first:
+      213: -1994733052262219962
+    second: MainTileMap 1_95
+  - first:
+      213: 7182888556842880612
+    second: MainTileMap 1_96
+  - first:
+      213: -7252670291176661026
+    second: MainTileMap 1_97
+  - first:
+      213: -4644314979749981715
+    second: MainTileMap 1_98
+  - first:
+      213: -8013038684863375938
+    second: MainTileMap 1_99
+  - first:
+      213: 3084051406071818238
+    second: MainTileMap 1_100
+  - first:
+      213: -868344451059147754
+    second: MainTileMap 1_101
+  - first:
+      213: -3851235733436141996
+    second: MainTileMap 1_102
+  - first:
+      213: 1428500106617068847
+    second: MainTileMap 1_103
+  - first:
+      213: -7366351604260469555
+    second: MainTileMap 1_104
+  - first:
+      213: -8215530337761042125
+    second: MainTileMap 1_105
+  - first:
+      213: -8403315523050815707
+    second: MainTileMap 1_106
+  - first:
+      213: 8084318775237040856
+    second: MainTileMap 1_107
+  - first:
+      213: 2344877109026028749
+    second: MainTileMap 1_108
+  - first:
+      213: -2356156903438107086
+    second: MainTileMap 1_109
+  - first:
+      213: -5271751155994677534
+    second: MainTileMap 1_110
+  - first:
+      213: 1942755527728956915
+    second: MainTileMap 1_111
+  - first:
+      213: 3353506583948334621
+    second: MainTileMap 1_112
+  - first:
+      213: -8017829552331364850
+    second: MainTileMap 1_113
+  - first:
+      213: 910905679229754605
+    second: MainTileMap 1_114
+  - first:
+      213: 5831267970385609240
+    second: MainTileMap 1_115
+  - first:
+      213: 7091573556911472093
+    second: MainTileMap 1_116
+  - first:
+      213: -6549905554967589207
+    second: MainTileMap 1_117
+  - first:
+      213: -5187858195822585402
+    second: MainTileMap 1_118
+  - first:
+      213: 7589993570490399721
+    second: MainTileMap 1_119
+  - first:
+      213: 9130012919488585203
+    second: MainTileMap 1_120
+  - first:
+      213: -2383422026744563818
+    second: MainTileMap 1_121
+  - first:
+      213: 5865612844168383279
+    second: MainTileMap 1_122
+  - first:
+      213: 912816722542507238
+    second: MainTileMap 1_123
+  - first:
+      213: -6186636884292694246
+    second: MainTileMap 1_124
+  - first:
+      213: 6768369521834370942
+    second: MainTileMap 1_125
+  - first:
+      213: -6155983017125518223
+    second: MainTileMap 1_126
+  - first:
+      213: 4406323585611582279
+    second: MainTileMap 1_127
+  - first:
+      213: 2539586221670750810
+    second: MainTileMap 1_128
+  - first:
+      213: 2117096275543855788
+    second: MainTileMap 1_129
+  - first:
+      213: -6071610007386822624
+    second: MainTileMap 1_130
+  - first:
+      213: 207997033312637214
+    second: MainTileMap 1_131
+  - first:
+      213: -4204518062427188173
+    second: MainTileMap 1_132
+  - first:
+      213: 3291047889000935732
+    second: MainTileMap 1_133
+  - first:
+      213: 5736054260915826949
+    second: MainTileMap 1_134
+  - first:
+      213: 2898788334148051122
+    second: MainTileMap 1_135
+  - first:
+      213: -727536188747982488
+    second: MainTileMap 1_136
+  - first:
+      213: -4193887015979714139
+    second: MainTileMap 1_137
+  - first:
+      213: -6870179644554321980
+    second: MainTileMap 1_138
+  - first:
+      213: 4115999599396467938
+    second: MainTileMap 1_139
+  - first:
+      213: -36881475193313449
+    second: MainTileMap 1_140
+  - first:
+      213: -1004493547116977399
+    second: MainTileMap 1_141
+  - first:
+      213: 4961314660596565058
+    second: MainTileMap 1_142
+  - first:
+      213: 6525943998916765512
+    second: MainTileMap 1_143
+  - first:
+      213: -6353263405035284496
+    second: MainTileMap 1_144
+  - first:
+      213: 4513687780663217273
+    second: MainTileMap 1_145
+  - first:
+      213: -4129914719501240274
+    second: MainTileMap 1_146
+  - first:
+      213: -9074746888659039957
+    second: MainTileMap 1_147
+  - first:
+      213: -2831654394119006671
+    second: MainTileMap 1_148
+  - first:
+      213: 7367253614529575637
+    second: MainTileMap 1_149
+  - first:
+      213: 2896059791794943976
+    second: MainTileMap 1_150
+  - first:
+      213: -8405147255368536894
+    second: MainTileMap 1_151
+  - first:
+      213: -6140921364326055009
+    second: MainTileMap 1_152
+  - first:
+      213: -2536833559443921009
+    second: MainTileMap 1_153
+  - first:
+      213: -1290909029927876901
+    second: MainTileMap 1_154
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

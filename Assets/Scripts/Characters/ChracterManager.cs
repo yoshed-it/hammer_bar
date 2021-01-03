@@ -16,5 +16,4 @@ public class CharacterManager : MonoBehaviour
     public Endurance endurancePoints;
     public int maxEndurancePoints;
     public int startingEndurancePoints;
-
 }
