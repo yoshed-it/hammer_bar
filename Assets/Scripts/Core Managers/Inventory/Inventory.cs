@@ -13,15 +13,13 @@ public class Inventory : MonoBehaviour
     Item[] items = new Item[numSlots];
     GameObject[] slots = new GameObject[numSlots];
 
-    
-    
+
     public void Start()
     {
-        CreateSlots();        
+        CreateSlots();
     }
-    private void Update() 
+    private void Update()
     {
-
     }
 
 
@@ -33,11 +31,18 @@ public class Inventory : MonoBehaviour
             {
                 GameObject newSlot = Instantiate(slotPrefab);
                 newSlot.name = "ItemSlot_" + i;
-
                 newSlot.transform.SetParent(gameObject.transform.GetChild(0).transform);
 
                 slots[i] = newSlot;
                 itemImages[i] = newSlot.transform.GetChild(1).GetComponent<Image>();
+
+                //Creates the Number that corrisponds to the keyboard.
+                //Should Probably  make this a scriptable object or something to get refrence to the keys.
+                Slot slotScript = slots[i].gameObject.GetComponent<Slot>();
+                TMP_Text hotBarNumber = slotScript.slotNumberText;
+
+                hotBarNumber.text = slotScript.slotNumberText.text + (i + 1);
+                hotBarNumber.name = "HotBar_" + (i + 1);
             }
         }
     }
@@ -51,21 +56,19 @@ public class Inventory : MonoBehaviour
             && itemToAdd.stackable == true)
             {
                 //Adding to existing slot.
-               
+
                 items[i].quantity = items[i].quantity + 1;
 
                 //Grab refrence to "Slot" script
                 Slot slotScript = slots[i].gameObject.GetComponent<Slot>();
-                
 
                 TMP_Text quantityText = slotScript.qtyText;
                 quantityText.gameObject.SetActive(true);
-             
+
 
                 quantityText.text = items[i].quantity.ToString();
 
                 return true;
-                
             }
             if (items[i] == null)
             {
@@ -78,10 +81,8 @@ public class Inventory : MonoBehaviour
             }
         }
         return false;
-
     }
 
-  
 }
 
 

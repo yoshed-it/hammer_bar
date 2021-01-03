@@ -14,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - Blocking
-  - Consumables
-  - AI
-  - Player
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -39,18 +39,45 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Ground
-    uniqueID: 601174825
-    locked: 0
-  - name: Grid
-    uniqueID: 1073247721
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Bar Objects
+  - name: Ground1
+    uniqueID: 601174825
+    locked: 0
+  - name: Ground2
+    uniqueID: 1073247721
+    locked: 0
+  - name: Ground3
     uniqueID: 1337132459
     locked: 0
-  - name: Characters
+  - name: Walls1
+    uniqueID: 1322426273
+    locked: 0
+  - name: Walls2
+    uniqueID: 3972633517
+    locked: 0
+  - name: WallDecoration1
+    uniqueID: 2341449145
+    locked: 0
+  - name: WallDecoration2
+    uniqueID: 3435790553
+    locked: 0
+  - name: GroundDecoration1
     uniqueID: 3538820027
+    locked: 0
+  - name: GroundDecoration2
+    uniqueID: 4174261607
+    locked: 0
+  - name: Instances
+    uniqueID: 3205805961
+    locked: 0
+  - name: Front1
+    uniqueID: 1083713283
+    locked: 0
+  - name: Front2
+    uniqueID: 1579976399
+    locked: 0
+  - name: Collisions
+    uniqueID: 3036776487
     locked: 0
