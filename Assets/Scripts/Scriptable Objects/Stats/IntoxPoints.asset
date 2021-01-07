@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524b01dcdb2daee47acda47aadd275c7, type: 3}
   m_Name: IntoxPoints
   m_EditorClassIdentifier: 
-  value: 0
+  value: 4

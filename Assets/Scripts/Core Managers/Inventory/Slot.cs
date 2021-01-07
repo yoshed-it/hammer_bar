@@ -7,5 +7,5 @@ using TMPro;
 public class Slot : MonoBehaviour
 {
   public TMP_Text qtyText;
-  public Image tray;
+  public TMP_Text slotNumberText;
 }
