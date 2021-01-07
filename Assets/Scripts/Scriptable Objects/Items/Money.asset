@@ -10,10 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98b32184840c2994293b5c22e29bda66, type: 3}
-  m_Name: Cash
+  m_Name: Money
   m_EditorClassIdentifier: 
   objectName: Cash
   sprite: {fileID: 21300000, guid: bcf657e0d50edb4469027a2e1005c73c, type: 3}
   quantity: 1
   stackable: 1
+  hasMonetaryValue: 0
+  monetaryValue: 0
+  intoxModifier: 0
+  stressModifier: 0
+  enduranceModifier: 0
   itemType: 0

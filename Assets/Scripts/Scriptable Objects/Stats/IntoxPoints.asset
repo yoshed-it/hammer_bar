@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 524b01dcdb2daee47acda47aadd275c7, type: 3}
-  m_Name: intoxPoints
+  m_Name: IntoxPoints
   m_EditorClassIdentifier: 
   value: 0
