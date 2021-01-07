@@ -1,14 +1,25 @@
 fileFormatVersion: 2
 guid: da41a8dd3b5ec434a802d9b5a2a0a777
+<<<<<<< HEAD
 timeCreated: 1581513561
 licenseType: Store
+=======
+>>>>>>> 278245b100f96f0eb26d7b0046ff6d90dbf2a88e
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
   iconMap: {}
   executionOrder: {}
+<<<<<<< HEAD
   isPreloaded: 0
   isOverridable: 0
+=======
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+>>>>>>> 278245b100f96f0eb26d7b0046ff6d90dbf2a88e
   platformData:
   - first:
       Any: 
