@@ -78,6 +78,15 @@
       },
       "hash": "3b5cbb1aa14b4ebc54d16a25d0ff1795beccce65"
     },
+    "com.unity.ai.navigation.components": {
+      "version": "https://github.com/Unity-Technologies/NavMeshComponents.git#package",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "hash": "49d0b3b11730c51c48ce0bcc5d6cc718d061045d"
+    },
     "com.unity.cinemachine": {
       "version": "2.3.4",
       "depth": 0,
