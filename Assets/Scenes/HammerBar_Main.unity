@@ -7351,6 +7351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1332150298}
   - component: {fileID: 1332150297}
+  - component: {fileID: 1332150299}
   m_Layer: 0
   m_Name: Tilemap Grid
   m_TagString: Untagged
@@ -7396,6 +7397,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1332150299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332150296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3870ac353288c0a448ceec08057f3090, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drunk: 0
+  customerPrefab: {fileID: 0}
+  randomPrefab:
+  - {fileID: 4990988989884314637, guid: 0d19f44b213c4e04e8f0deaccd387853, type: 3}
+  - {fileID: 3605887138261661875, guid: cd791f3965d646441adf1f7fa54f7264, type: 3}
+  - {fileID: 6380541945275213083, guid: a1176dc9b4da8184f8d8d020ebdd503e, type: 3}
+  currentCustomers: []
 --- !u!4 &1342620974 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3794404328786268951, guid: 358e9aac5f13ada4ebdc045d5d8bfa30,
