@@ -1,4 +1,15 @@
-﻿public enum ItemType
+﻿
+
+public enum InventoryLocation 
+{
+    player,
+    chest,
+    count
+}
+
+
+
+public enum ItemType
 {
     Booze,
     Commodity,

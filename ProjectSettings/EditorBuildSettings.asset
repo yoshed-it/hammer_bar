@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/AITestScene.unity
+    guid: b8204a87ba7b04c25aefc05409b05f56
+  - enabled: 1
+    path: Assets/Scenes/HammerBar_Main.unity
+    guid: eea53d71fdf623745bc2a40e6c22a75f
   m_configObjects: {}

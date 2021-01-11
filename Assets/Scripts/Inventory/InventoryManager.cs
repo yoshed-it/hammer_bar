@@ -5,26 +5,139 @@ using UnityEngine;
 
 public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
 {
-    private Dictionary<int, ItemDetails> ItemDetailsDictionary;
+    private Dictionary<int, ItemDetails> itemDetailsDictionary;
+    public List<InventoryItem>[] inventoryLists;
+
 
     [SerializeField] public SO_ItemList itemList = null;
+    [HideInInspector] public int[] inventoryListCapacityIntArray; // the index of the array is the inventory list (from the InventoryLocation enum), and the value is the capacity of that inventory list
 
 
-    private void Start()
+    protected override void Awake()
     {
-        CreateItemDetailsDictionary();
+        base.Awake();
+
+        CreateInventoryLists();
+
+        CreateitemDetailsDictionary();
 
     }
+
+
+    private void CreateInventoryLists()
+    {
+        inventoryLists = new List<InventoryItem>[(int)InventoryLocation.count];
+        for (int i = 0; i < (int)InventoryLocation.count; i++)
+        {
+            inventoryLists[i] = new List<InventoryItem>();
+        }
+        
+        // initialise inventory list capacity array
+        inventoryListCapacityIntArray = new int[(int)InventoryLocation.count];
+
+        // initialise player inventory list capacity
+        inventoryListCapacityIntArray[(int)InventoryLocation.player] = Settings.playerInitialInventoryCapacity;
+    }
+
+
+    public void AddItem(InventoryLocation inventoryLocation, Items items, GameObject gameObjectToDestroy)
+    {
+        AddItem(inventoryLocation, items);
+        Destroy(gameObjectToDestroy);
+
+    }
+
+
+    /// <summary>
+    /// Add an item to the inventory list for the inventoryLocation
+    ///</summary>
+    public void AddItem(InventoryLocation inventoryLocation, Items items)
+    {
+        int itemID = items.ItemID;
+        List<InventoryItem> inventoryList = inventoryLists[(int)inventoryLocation];
+
+        // Check if inventory already contains the item
+        int itemPostitionInArray = FindItemInInventory(inventoryLocation, itemID);
+
+        if (itemPostitionInArray != -1)
+        {
+            AddItemAtPositionInArray(inventoryList, itemID, itemPostitionInArray);
+        }
+        else 
+        {
+            AddItemAtPositionInArray(inventoryList, itemID);
+        }
+
+        //Dispatch event that inventory has been updated, and update.
+        EventHandler.CallInventoryUpdatedEvent(inventoryLocation, inventoryLists[(int)inventoryLocation]);
+    }
+
+
+    /// <summary>
+    /// Find if an itemCode is already in the inventory. Returns the item position
+    /// in the inventory list, or -1 if the item is not in the inventory
+    /// </summary>    
+    public int FindItemInInventory(InventoryLocation inventoryLocation, int ItemID) 
+        {
+            List<InventoryItem> inventoryList = inventoryLists[(int)inventoryLocation];
+
+            //Count does not refrence the enum. Its a property on list.
+            for (int i = 0; i < inventoryList.Count; i++)
+            {
+                if(inventoryList[i].itemID == ItemID)
+                {
+                    return i;
+                }
+            }
+        return -1;
+        }
+    
+
+    /// <summary>
+    /// Add item to position in arry. position is comming from FindItemInInventory method.
+    /// </summary>
+    private void AddItemAtPositionInArray(List<InventoryItem> inventoryList, int itemID, int position)
+    {
+        InventoryItem inventoryItem = new InventoryItem();
+
+        int quantity = inventoryList[position].itemQuantitiy + 1;
+        
+        inventoryItem.itemID = itemID;
+        inventoryItem.itemQuantitiy = 1;
+        inventoryList.Add(inventoryItem);
+        inventoryList[position] = inventoryItem;
+
+
+        DebugPrintInventoryList(inventoryList);
+    }
+
+    /// <summary>
+    /// Add item to end of the inventory array
+    /// </summary>
+    private void AddItemAtPositionInArray(List<InventoryItem> inventoryList, int itemID)
+    {
+        InventoryItem inventoryItem = new InventoryItem();
+
+        inventoryItem.itemID = itemID;
+        inventoryItem.itemQuantitiy = 1;
+        inventoryList.Add(inventoryItem);
+
+        DebugPrintInventoryList(inventoryList);
+    }
+
+
+
+
 
     /// <summary>
     /// Populates the ItemsDetailsDictionary from the scriptable object items list.
     /// </summary> 
-    private void CreateItemDetailsDictionary()
+    private void CreateitemDetailsDictionary()
     {
-        ItemDetailsDictionary = new Dictionary<int, ItemDetails>();
+        itemDetailsDictionary = new Dictionary<int, ItemDetails>();
         foreach (ItemDetails itemDetails in itemList.itemDetails)
         {
-            ItemDetailsDictionary.Add(itemDetails.itemID, itemDetails);
+            itemDetailsDictionary.Add(itemDetails.itemID, itemDetails);
             Debug.Log("ITEM STUFF!!!  " + itemDetails.itemID);
         }
     }
@@ -36,7 +149,7 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
     {
         ItemDetails itemDetails;
 
-        if (ItemDetailsDictionary.TryGetValue(itemID, out itemDetails))
+        if (itemDetailsDictionary.TryGetValue(itemID, out itemDetails))
         {
             return itemDetails;
         }
@@ -45,5 +158,15 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
             return null;
         }
     }
+
+    private void DebugPrintInventoryList(List<InventoryItem> inventoryList)
+    {
+        foreach(InventoryItem inventoryItem in inventoryList)
+        {
+            Debug.Log("Item Description: " + InventoryManager.Instance.GetItemDetails(inventoryItem.itemID).itemDescription + "    Item Quantity: " + inventoryItem.itemQuantitiy);
+        }
+        Debug.Log("---------------------------------------------------------------------");
+    }
+
 }
 
