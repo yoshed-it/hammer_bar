@@ -32,40 +32,38 @@ public class TestAI : MonoBehaviour
     public string[] allSubTraits = {"Alcoholic", "Fast", "Slow", "Clumsy", "Lightweight", "Fickle", "Sociable", "Serious"};
     public string personality;
     public string[] subTraits;
-    
+
 
 
 
     public float IncrementNeedForBathroom()
     {
         bladder += bladderIncrement;
-        if(bladder >= bladderMax) {
+        if (bladder >= bladderMax)
+        {
             generalTree.SendEvent<object>("GoBathroom", 1);
             needBathroom = true;
-            bladderNumber = Random.Range(0,10) < 5 ? 1 : 2;
+            bladderNumber = Random.Range(0, 10) < 5 ? 1 : 2;
             bladder = 0;
             needBathroom = false;
         }
 
         return bladder;
-
     }
     public void RandomizeStats()
     {       
         if (Random.Range(0, 10) < 5)
         {
             drunk = true;
+
             drunkMeter = 100;
             socialMeter = 100;
-
         }
         else
         {
             drunk = false;
             socialMeter = 200;
-
         }
-
     }
 
     public void CheckNeedForBooze()
@@ -103,6 +101,7 @@ public class TestAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         IncrementNeedForBathroom();
         CheckNeedForBooze();
     }
