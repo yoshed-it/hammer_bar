@@ -10,12 +10,14 @@
       <Path>Library/PackageCache/com.unity.2d.psdimporter@2.1.6</Path>
       <Path>Library/PackageCache/com.unity.2d.spriteshape@3.0.14</Path>
       <Path>Library/PackageCache/com.unity.2d.tilemap.extras@3b5cbb1aa1</Path>
+      <Path>Library/PackageCache/com.unity.ai.navigation.components@49d0b3b117</Path>
       <Path>Library/PackageCache/com.unity.cinemachine@2.3.4</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.2.16</Path>
       <Path>Library/PackageCache/com.unity.ext.nunit@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.ide.rider@1.1.4</Path>
       <Path>Library/PackageCache/com.unity.ide.vscode@1.2.2</Path>
       <Path>Library/PackageCache/com.unity.mathematics@1.1.0</Path>
+      <Path>Library/PackageCache/com.unity.recorder@2.5.2</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.18</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@2.1.1</Path>
       <Path>Library/PackageCache/com.unity.timeline@1.2.17</Path>
@@ -28,6 +30,7 @@
       <Path>.vscode</Path>
       <Path>Library</Path>
       <Path>Temp</Path>
+      <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
