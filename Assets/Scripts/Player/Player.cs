@@ -46,7 +46,7 @@ public class Player : CharacterManager
     }
 
 
-    //Need to rewrite so that its a click event. Seems silly to just run into booze. Or money. Its a comerce based game. Maybe things that NPC's drop are auto looted? But only if the character is close enough.
+   // Need to rewrite so that its a click event. Seems silly to just run into booze. Or money. Its a comerce based game. Maybe things that NPC's drop are auto looted? But only if the character is close enough.
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("CanBePickedUp"))

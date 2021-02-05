@@ -23,7 +23,7 @@ MonoBehaviour:
     itemUseRadius: 0
     itemDecayRate: 0
     isStartingItem: 1
-    canBePickedUp: 0
+    canBePickedUp: 1
     canBeDropped: 0
     canBeCarried: 0
     canBeConsumed: 0
@@ -37,7 +37,7 @@ MonoBehaviour:
     itemUseRadius: 0
     itemDecayRate: 0
     isStartingItem: 1
-    canBePickedUp: 0
+    canBePickedUp: 1
     canBeDropped: 0
     canBeCarried: 0
     canBeConsumed: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     itemUseRadius: 0
     itemDecayRate: 0
     isStartingItem: 0
-    canBePickedUp: 1
+    canBePickedUp: 0
     canBeDropped: 1
     canBeCarried: 1
     canBeConsumed: 0

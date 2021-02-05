@@ -31,7 +31,7 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
         {
             inventoryLists[i] = new List<InventoryItem>();
         }
-        
+
         // initialise inventory list capacity array
         inventoryListCapacityIntArray = new int[(int)InventoryLocation.count];
 
@@ -40,6 +40,9 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
     }
 
 
+    /// <summary>
+    /// AddItem overload method to destory item when picked up.
+    ///</summary>
     public void AddItem(InventoryLocation inventoryLocation, Items items, GameObject gameObjectToDestroy)
     {
         AddItem(inventoryLocation, items);
@@ -63,7 +66,7 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
         {
             AddItemAtPositionInArray(inventoryList, itemID, itemPostitionInArray);
         }
-        else 
+        else
         {
             AddItemAtPositionInArray(inventoryList, itemID);
         }
@@ -77,21 +80,21 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
     /// Find if an itemCode is already in the inventory. Returns the item position
     /// in the inventory list, or -1 if the item is not in the inventory
     /// </summary>    
-    public int FindItemInInventory(InventoryLocation inventoryLocation, int ItemID) 
-        {
-            List<InventoryItem> inventoryList = inventoryLists[(int)inventoryLocation];
+    public int FindItemInInventory(InventoryLocation inventoryLocation, int ItemID)
+    {
+        List<InventoryItem> inventoryList = inventoryLists[(int)inventoryLocation];
 
-            //Count does not refrence the enum. Its a property on list.
-            for (int i = 0; i < inventoryList.Count; i++)
+        //Count does not refrence the enum. Its a property on list.
+        for (int i = 0; i < inventoryList.Count; i++)
+        {
+            if (inventoryList[i].itemID == ItemID)
             {
-                if(inventoryList[i].itemID == ItemID)
-                {
-                    return i;
-                }
+                return i;
             }
-        return -1;
         }
-    
+        return -1;
+    }
+
 
     /// <summary>
     /// Add item to position in arry. position is comming from FindItemInInventory method.
@@ -100,10 +103,10 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
     {
         InventoryItem inventoryItem = new InventoryItem();
 
-        int quantity = inventoryList[position].itemQuantitiy + 1;
-        
+        int quantity = inventoryList[position].itemQuantity + 1;
+
         inventoryItem.itemID = itemID;
-        inventoryItem.itemQuantitiy = 1;
+        inventoryItem.itemQuantity = 1;
         inventoryList.Add(inventoryItem);
         inventoryList[position] = inventoryItem;
 
@@ -119,14 +122,11 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
         InventoryItem inventoryItem = new InventoryItem();
 
         inventoryItem.itemID = itemID;
-        inventoryItem.itemQuantitiy = 1;
+        inventoryItem.itemQuantity = 1;
         inventoryList.Add(inventoryItem);
 
         DebugPrintInventoryList(inventoryList);
     }
-
-
-
 
 
     /// <summary>
@@ -141,6 +141,7 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
             Debug.Log("ITEM STUFF!!!  " + itemDetails.itemID);
         }
     }
+
 
     /// <summary>
     /// Returns itemDetails (from the SO_ItemList) for the itemCode, or null of the item code doesn't exist.
@@ -161,9 +162,9 @@ public class InventoryManager : SingletonMonoBehaviour<InventoryManager>
 
     private void DebugPrintInventoryList(List<InventoryItem> inventoryList)
     {
-        foreach(InventoryItem inventoryItem in inventoryList)
+        foreach (InventoryItem inventoryItem in inventoryList)
         {
-            Debug.Log("Item Description: " + InventoryManager.Instance.GetItemDetails(inventoryItem.itemID).itemDescription + "    Item Quantity: " + inventoryItem.itemQuantitiy);
+            Debug.Log("Item Description: " + InventoryManager.Instance.GetItemDetails(inventoryItem.itemID).itemDescription + "    Item Quantity: " + inventoryItem.itemQuantity);
         }
         Debug.Log("---------------------------------------------------------------------");
     }

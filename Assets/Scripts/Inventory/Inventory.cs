@@ -13,6 +13,8 @@ public class Inventory : MonoBehaviour
     Item[] items = new Item[numSlots];
     GameObject[] slots = new GameObject[numSlots];
 
+    [SerializeField] private Sprite blank16x16sprite = null;
+    [SerializeField] private InventorySlotUI[] inventorySlot = null;
 
     public void Start()
     {
@@ -20,6 +22,7 @@ public class Inventory : MonoBehaviour
     }
     private void Update()
     {
+
     }
 
 
@@ -83,7 +86,42 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
-}
+    // public void AddItem(List<InventoryItem> inventoryList)
+    // {
+    //     for (int i = 0; i < inventorySlot.Length; i++)
+    //     {
+    //         if (i < inventoryList.Count)
+    //         {
+    //             int itemID = inventoryList[i].itemID;
+
+    //             ItemDetails itemDetails = InventoryManager.Instance.GetItemDetails(itemID);
+    //             Slot slotScript = inventorySlot[i].gameObject.GetComponent<Slot>();
+
+
+    //             if (itemDetails != null)
+    //             {
+    //                 inventorySlot[i].inventorySlotImage.sprite = itemDetails.itemSprite;
+    //                 Debug.Log( inventorySlot[i].inventorySlotImage.sprite = itemDetails.itemSprite);
+    //                 inventorySlot[i].textMeshProUGUI.text = inventoryList[i].itemQuantity.ToString();
+    //                 inventorySlot[i].itemDetails = itemDetails;
+    //                 inventorySlot[i].itemQuantitiy = inventoryList[i].itemQuantity;
+
+    //             }
+    //         }
+    //         else
+    //         {
+    //             break;
+    //         }
+
+    //     }
+    }
+
+
+
+
+
+
+
 
 
 

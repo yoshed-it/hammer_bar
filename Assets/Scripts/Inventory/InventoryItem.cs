@@ -3,5 +3,5 @@
 public struct InventoryItem
 {
 public int itemID;
-public int itemQuantitiy;
+public int itemQuantity;
 }
