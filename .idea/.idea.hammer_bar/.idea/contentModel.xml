@@ -2214,14 +2214,18 @@
             <e p="CameraStabalizer.cs" t="Include" />
           </e>
           <e p="Characters" t="Include">
-            <e p="ChracterManager.cs" t="Include" />
+            <e p="CharacterBase.cs" t="Include" />
           </e>
           <e p="Enums" t="Include">
             <e p="Enums.cs" t="Include" />
           </e>
+          <e p="Events" t="Include">
+            <e p="EventHandler.cs" t="Include" />
+          </e>
           <e p="GameManager.cs" t="Include" />
           <e p="Inventory" t="Include">
             <e p="Inventory.cs" t="Include" />
+            <e p="InventoryItem.cs" t="Include" />
             <e p="InventoryManager.cs" t="Include" />
             <e p="Slot.cs" t="Include" />
           </e>
@@ -2246,12 +2250,20 @@
             <e p="Stats" t="Include">
               <e p="Endurance.cs" t="Include" />
               <e p="Intox.cs" t="Include" />
+              <e p="Stat.cs" t="Include" />
               <e p="StatusBars.cs" t="Include" />
               <e p="Stress.cs" t="Include" />
             </e>
           </e>
-          <e p="Singletons" t="Include">
+          <e p="Settings" t="Include">
+            <e p="Settings.cs" t="Include" />
             <e p="SingletonMonobehaviour.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Inventory" t="Include">
+              <e p="InventoryHotBarUI.cs" t="Include" />
+              <e p="InventorySlotUI.cs" t="Include" />
+            </e>
           </e>
           <e p="Utils" t="Include">
             <e p="ChildFinder.cs" t="Include" />
@@ -2259,7 +2271,7 @@
               <e p="ItemCodeDescriptionDrawer.cs" t="Include" />
             </e>
             <e p="PropertyDrawers" t="Include">
-              <e p="ItemCodeDescriptionAttributes.cs" t="Include" />
+              <e p="ItemCodeDescriptionAttribute.cs" t="Include" />
             </e>
           </e>
         </e>
