@@ -1,6 +1,31 @@
-﻿public enum ItemType
+﻿
+
+public enum Stats
+{
+    inotx,
+    endurance,
+    stress,
+    str,
+    dex,
+    cha,
+    isDrunk,
+    isStressedOut,
+    isExhausted
+
+}
+
+public enum InventoryLocation 
+{
+    player,
+    chest,
+    count
+}
+
+
+public enum ItemType
 {
     Booze,
+    Money,
     Commodity,
     Hammer_tool, //Maybe Just a "Fixing Tool"
     Wine_key_tool,
@@ -12,14 +37,15 @@
     Cutting_tool,
     Handtruck_tool,
     Pickupable_objects,
+    Carryable_obecjts,
     Consumable,
-    none,
-    count,
-    money,
-    Intox_consumable,
-    Stress_consumable,
-    Endurance_consumable,
     Furnature,
     Equipment,
+    StatModifier,
+    none,
+    count,
+    // Intox_consumable,
+    // Stress_consumable,
+    // Endurance_consumable,
 
 }

@@ -1,52 +1,47 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Net.Sockets;
 using UnityEngine;
 
-public class Player : CharacterManager
+public class Player : CharacterBase
 {
-
-
-    public StatusBars intoxBarPrefab, enduranceBarPrefab, stressBarPrefab, moneyTickerPrefab;
+    public StatusBars statusBarPrefab;
     public Inventory inventoryPrefab;
-    StatusBars intoxBar, enduranceBar, stressBar, moneyTicker;
+    private StatusBars statusBars;
     Inventory inventory;
 
 
     void Start()
     {
+        //Instantiate
         //break everything out into a new method that gets called at start.
         inventory = Instantiate(inventoryPrefab);
+        statusBars = Instantiate(statusBarPrefab);
+
+        intox = ScriptableObject.CreateInstance<Stat>();
+        endurance = ScriptableObject.CreateInstance<Stat>();
+        stress = ScriptableObject.CreateInstance<Stat>();
 
         //Intox
-        intoxPoints.value = startingIntoxPoints;
-        intoxBar = Instantiate(intoxBarPrefab);
-        intoxBar.character = this;
+        intox.startValue = 0;
+        intox.maxValue = 10;
 
         //Endurance
-        endurancePoints.value = startingEndurancePoints;
-        enduranceBar = Instantiate(enduranceBarPrefab);
-        enduranceBar.character = this;
-
+        endurance.startValue = 10;
+        endurance.maxValue = 10;
 
         //Stress
-        stressPoints.value = startingStressPoints;
-        stressBar = Instantiate(stressBarPrefab);
-        stressBar.character = this;
-
-        //Money
-        moneyTicker = Instantiate(moneyTickerPrefab);
-        moneyTicker.character = this;
-
-
+        stress.startValue = 0;
+        stress.maxValue = 100000;
     }
 
-    private void Update()
+    void Update()
     {
-        AdjustStressLevelOverTime(stressPoints.value);
+        AdjustStressLevelOverTime(stress.currentValue);
     }
 
 
-    //Need to rewrite so that its a click event. Seems silly to just run into booze. Or money. Its a comerce based game. Maybe things that NPC's drop are auto looted? But only if the character is close enough.
+   // Need to rewrite so that its a click event. Seems silly to just run into booze. Or money. Its a comerce based game. Maybe things that NPC's drop are auto looted? But only if the character is close enough.
     void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("CanBePickedUp"))
@@ -59,13 +54,17 @@ public class Player : CharacterManager
                 switch (collisionObject.itemType)
                 {
                     case Item.ItemType.MONEY:
-                        shouldDestroy = moneyTicker.MoneyIncrementer(collisionObject);
+                        money += collisionObject.monetaryValue;
+                        statusBars.UpdateMoneyBar(money);
+                        shouldDestroy = true;
                         Debug.Log("You Stepped on " + collisionObject);
                         break;
 
                     case Item.ItemType.INTOX:
-                        AdjustEnnduranceLevel(collisionObject.quantity);
+                        AdjustEnduranceLevel(collisionObject.quantity);
                         AdjustIntoxLevel(collisionObject.quantity);
+                        statusBars.UpdateEnduranceBar(endurance.currentValue, endurance.maxValue);
+                        statusBars.UpdateIntoxBar(intox.currentValue, intox.maxValue);
                         shouldDestroy = inventory.AddItem(collisionObject);
                         // shouldDestroy = true;
                         break;
@@ -85,25 +84,24 @@ public class Player : CharacterManager
     //Yosh -- Need to set the amount to a non random range. Get the info from the consumable.
     public bool AdjustIntoxLevel(int amount)
     {
-        if (intoxPoints.value < maxIntoxPoints)
+        if (intox.currentValue < intox.maxValue)
         {
-            amount = Random.Range(0, 3) + 1;
-            intoxPoints.value = intoxPoints.value + amount;
-            print("You drank something, youre " + amount + " points more trashed. " + intoxPoints.value);
-
-
+            intox.currentValue += amount;
+            print("You drank something, you're " + amount + " points more trashed. " + intox.currentValue);
             return true;
         }
         return false;
 
     }
     //TODO: Add a minimum endurance level that will knock the character out or some other action.
-    public bool AdjustEnnduranceLevel(int amount)
+    public bool AdjustEnduranceLevel(int amount)
     {
-        if (endurancePoints.value <= maxEndurancePoints)
+        if (endurance.currentValue <= endurance.maxValue)
         {
-            endurancePoints.value = endurancePoints.value - amount;
-            print("Because of the booze, youve lost " + amount + " points of endurance. " + endurancePoints.value);
+            // Small Note for Yoshi!
+            // endurance.currentValue -= amount is shorthand for endurance.currentValue = endurance.currentValue - amount;
+            endurance.currentValue -= amount;
+            print("Because of the booze, you've lost " + amount + " points of endurance. " + endurance.currentValue);
             print("Im amount! Im being returned! " + amount);
             return true;
         }
@@ -113,18 +111,11 @@ public class Player : CharacterManager
 
     public bool AdjustStressLevelOverTime(float stressTimer)
     {
-        if (stressPoints.value <= startingStressPoints || stressPoints.value <= maxStressPoints)
+        if (stress.currentValue <= stress.startValue || stress.currentValue <= stress.maxValue)
         {
-            stressTimer = Time.deltaTime * 1000;
-
-            stressPoints.value = stressPoints.value + stressTimer;
-
+            stress.currentValue += Time.deltaTime * 1000;
             return true;
         }
         return false;
     }
-
-
-
-
 }

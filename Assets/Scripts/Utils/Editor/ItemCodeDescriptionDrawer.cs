@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using System;
+
 
 
 [CustomPropertyDrawer(typeof(ItemCodeDescriptionAttribute))]
 public class ItemCodeDescriptionDrawer : PropertyDrawer
 {
-
+   
     public override float GetPropertyHeight(SerializedProperty property, GUIContent label)
     {
         // Change the returned property height to be double to cater for the additional item code description that we will draw
